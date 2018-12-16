@@ -7,12 +7,11 @@ const styles = {
         margin: 'auto',
         textAlign: 'left',
     },
-
     cta: {
         color: '#008BFF',
         float: 'right',
+        textDecoration: 'none'
     }
-    
 }
 
 const About = ({ classes }) => {
@@ -20,7 +19,7 @@ const About = ({ classes }) => {
         <div className={classes.layout}>
             <p>About Us</p>
             <p>ProductGo is a meetup where Torontos digital product development professionals can learn from our best product leaders. Each meetup will have panel discussions with a wide variety of product leaders that shape the direction of Toronto's fastest-growing technology companies. </p>
-            <a className={classes.cta}>Visit Meetup Page</a>
+            <a className={classes.cta} href="">Visit Meetup Page</a>
         </div>
     )
 }
