@@ -4,8 +4,6 @@ import EventCard from '../cards/EventCard';
 
 const styles = {
     eventCard: {
-        // color: 'black'
-        // margin: auto
         textAlign: 'center',
     },
 };
