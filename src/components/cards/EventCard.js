@@ -11,7 +11,6 @@ const styles = {
     },
     cta: {
         color: '#008BFF',
-        float: 'right',
         textDecoration: 'none'
     }
 };
