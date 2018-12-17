@@ -9,7 +9,7 @@ const styles = {
         color: 'white'
     },
     innerWrapper: {
-        maxWidth: 960,
+        maxWidth: 940,
         margin: 'auto',
         textAlign: 'left'
     }

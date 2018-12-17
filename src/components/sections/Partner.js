@@ -5,15 +5,18 @@ import PartnerCard from '../cards/PartnerCard';
 const styles = {
     wrapper: {
         background: '#AFD4BF',
-        paddingTop: 150,
         height: 500,
+        display: 'flex',
+        alignContent: 'center'    
     },
     innerWrapper: {
         background: '#AFD4BF',
         maxWidth: 940,
         margin: 'auto',
         // clearfix
-        overflow: 'auto'
+        overflow: 'auto',
+        display: 'flex',
+        justifyContent: 'space-between',
     }
 };
 

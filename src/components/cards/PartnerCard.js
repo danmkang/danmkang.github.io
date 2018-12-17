@@ -5,11 +5,16 @@ import CardContent from '@material-ui/core/CardContent';
 
 const styles = {
     card: {
-        maxWidth: 300,
+        maxWidth: `30%`,
+        minWidth: 300,
         height: 360,
         textAlign: 'left',
-        float: 'left'
+        // float: 'left'
     },
+    cta: {
+        color: '#008BFF',
+        textDecoration: 'none'
+    }
 };
 
 const PartnerCard = ({ classes }) => {
