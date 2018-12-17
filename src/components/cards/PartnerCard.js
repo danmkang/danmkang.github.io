@@ -6,27 +6,25 @@ import CardContent from '@material-ui/core/CardContent';
 
 const styles = {
     card: {
-        maxWidth: 1000,
-        margin: '25px auto'
+        maxWidth: 300,
+        height: 360,
+        textAlign: 'left',
+        float: 'left'
     },
-    cta: {
-        color: '#008BFF',
-        textDecoration: 'none'
-    }
 };
 
-const EventCard = ({ classes }) => {
-
+const PartnerCard = ({ classes }) => {
     return (
         <Card className={classes.card}>
-            <p>Event Card</p>
             <CardContent>
+                <p>Partner with us</p>
+                <p>Collaborate with ProductGo for future meetups and events</p>
                 <CardActions>
-                    <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Register for event</a>
+                <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Register for event</a>
                 </CardActions>
             </CardContent>
-        </Card>
+        </Card >
     )
 }
 
-export default withStyles(styles)(EventCard);
+export default withStyles(styles)(PartnerCard);
