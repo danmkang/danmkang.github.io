@@ -1,6 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import PartnerCard from '../cards/PartnerCard';
+import partnerData from '../../datasets/partnerData';
 
 const styles = {
     wrapper: {
@@ -24,9 +25,15 @@ const Partner = ({ classes }) => {
     return (
         <div className={classes.wrapper}>
             <div className={classes.innerWrapper}>
-            <PartnerCard />
-            <PartnerCard />
-            <PartnerCard />
+            {partnerData.map((card, i) => {
+                return (<PartnerCard
+                    title={card.title}
+                    description={card.description}
+                    cta={card.cta}
+                    img={card.img}
+                    key={`card-${i}`}
+                />)
+            })}
             </div>
         </div>
     )

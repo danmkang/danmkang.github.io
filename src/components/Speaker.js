@@ -3,16 +3,34 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
     wrapper: {
-        padding: 5
+        display: 'flex',
+        paddingTop: 25,
     },
+    imgWrapper: {
+        borderRadius: '50%'
+    },
+    img: {
+        width: 70,
+        borderRadius: '50%'
+    },
+    copy: {
+        fontSize: 8,
+        paddingLeft: 20,
+        paddingTop: 5
+    }
 };
 
-const Speaker = ({ classes }) => {
+const Speaker = ({ classes, img, name, title, company }) => {
     return (
         <div className={classes.wrapper}>
-            <p>Full name</p>
-            <p>Title</p>
-            <p>Company</p>
+            <div className={classes.imgWrapper}>
+                <img className={classes.img} src={img} alt={`Headshot of ${name}`} />
+            </div>
+            <div className={classes.copy}>
+                <p>{name}</p>
+                <p>{title}</p>
+                <p>{company}</p>
+            </div>
         </div>
     )
 }

@@ -11,19 +11,33 @@ const styles = {
         textAlign: 'left',
         // float: 'left'
     },
+    imgWrapper: {
+        textAlign: 'center',
+        margin: 'auto',
+    },
+    img: {
+        height: 150,
+        margin: 'auto'
+    },
+    description: {
+        color: '#9B9B9B'
+    },
     cta: {
         color: '#008BFF',
         textDecoration: 'none'
     }
 };
 
-const PartnerCard = ({ classes }) => {
+const PartnerCard = ({ classes, title, description, cta, img }) => {
     return (
         <Card className={classes.card}>
             <CardContent>
-                <p>Partner with us</p>
-                <p>Collaborate with ProductGo for future meetups and events</p>
-                <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Register for event</a>
+                <div className={classes.imgWrapper}>
+                    <img className={classes.img} src={img} alt={title} />
+                </div>
+                <p>{title}</p>
+                <p className={classes.description} fontSize="small">{description}</p>
+                <a className={classes.cta} href="https://www.meetup.com/ProductGO/">{cta}</a>
             </CardContent>
         </Card >
     )
