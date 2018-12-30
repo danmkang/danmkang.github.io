@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
           <Home />
           <Events />
-          <About />
+          <About id="about"/>
           <Partner />
           <Sponsors />
           <Contact />

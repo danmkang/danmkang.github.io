@@ -31,7 +31,7 @@ const styles = {
 
 const Contact = ({ classes }) => {
     return (
-        <div className={classes.wrapper}>
+        <div id="contact" className={classes.wrapper}>
             <div className={classes.innerWrapper}>
                 <p>Contact us</p>
                 <div className={classes.footer}>

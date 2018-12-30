@@ -16,7 +16,7 @@ const styles = {
 
 const Events = ({ classes }) => {
     return (
-        <div className={classes.wrapper}>
+        <div id="events" className={classes.wrapper}>
             <EventCard className={classes.eventCard}/>
         </div>
     )

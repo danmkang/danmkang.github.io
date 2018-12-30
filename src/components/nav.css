@@ -1,0 +1,22 @@
+nav,
+nav ul,
+nav ul li {
+    display: flex;
+}
+
+nav p,
+nav li {
+    text-align: left;
+    padding: 25px 15px;
+}
+
+nav {
+    max-width: calc(940px + 30px);
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}

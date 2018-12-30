@@ -1,5 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core';
+import Nav from '../Nav';
 import heroGradient from '../../assets/hero-gradient-cut.png'
 import headerLogo from '../../assets/header-logo.png'
 
@@ -14,7 +15,7 @@ const styles = {
     copy: {
         maxWidth: 940,
         margin: 'auto',
-        paddingTop: 250
+        paddingTop: 100
     },
     headerLogo: {
         width: 250
@@ -23,7 +24,8 @@ const styles = {
 
 const Home = ({ classes }) => {
     return (
-        <div className={classes.wrapper}>
+        <div id="home" className={classes.wrapper}>
+            <Nav />
             <div className={classes.copy}>
                 <img className={classes.headerLogo} src={headerLogo} alt=""/>
                 <h1>ProductGo</h1>

@@ -23,7 +23,7 @@ const styles = {
 
 const Partner = ({ classes }) => {
     return (
-        <div className={classes.wrapper}>
+        <div id="partner" className={classes.wrapper}>
             <div className={classes.innerWrapper}>
             {partnerData.map((card, i) => {
                 return (<PartnerCard
