@@ -1,5 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import footerLogo from '../assets/footer-logo.png'
 import linkedin from '../assets/linkedin-logo.png';
 import twitter from '../assets/twitter-logo.png';
 import './nav.css';
@@ -13,6 +14,7 @@ const styles = {
 
 const Nav = ({ classes }) => {
     return (
+        <div id="main-nav">
         <nav className={classes.headerNav}>
             <p>ProductGo</p>
             <ul>
@@ -26,6 +28,7 @@ const Nav = ({ classes }) => {
                 </li>
             </ul>
         </nav>
+        </div>
     )
 }
 

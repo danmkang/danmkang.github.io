@@ -7,16 +7,22 @@ nav ul li {
 nav p,
 nav li {
     text-align: left;
-    padding: 25px 15px;
+    padding: 15px 15px;
 }
-
+#main-nav{
+    background-color: #464646;
+    position: fixed;
+    width: 100%;
+}
 nav {
     max-width: calc(940px + 30px);
     margin: auto;
     justify-content: space-between;
 }
 
-nav ul li a {
-    color: #333;
+nav p,
+nav ul li a,
+nav ul li a i {
+    color: white;
     text-decoration: none;
 }

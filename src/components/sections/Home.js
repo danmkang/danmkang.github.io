@@ -15,7 +15,7 @@ const styles = {
     copy: {
         maxWidth: 940,
         margin: 'auto',
-        paddingTop: 100
+        paddingTop: 225
     },
     headerLogo: {
         width: 250
