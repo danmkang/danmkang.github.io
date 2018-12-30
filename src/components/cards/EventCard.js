@@ -14,7 +14,7 @@ const styles = {
     },
     content: {
         margin: 'auto',
-        width: 960
+        width: 940
     },
     cta: {
         color: '#008BFF',
