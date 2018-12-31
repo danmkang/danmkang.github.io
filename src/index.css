@@ -58,6 +58,16 @@ input[type='checkbox']{
   #home .Home-headerLogo-3 {
     width: 50%;
   }
+
+  #events .Speaker-wrapper-42 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #events .Speaker-copy-45 {
+    padding-left: 0px;
+  }
+
   #contact{
     height: auto;
   }
