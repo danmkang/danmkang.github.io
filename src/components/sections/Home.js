@@ -7,6 +7,7 @@ import headerLogo from '../../assets/header-logo.png'
 const styles = {
     wrapper: {
         backgroundImage: `url(${heroGradient})`,
+        backgroundPosition: '75% 0',
         backgroundSize: 'cover',
         height: 880,
         margin: 'auto',
@@ -15,6 +16,7 @@ const styles = {
     copy: {
         maxWidth: 940,
         margin: 'auto',
+        padding: 30,
         paddingTop: 225
     },
     headerLogo: {

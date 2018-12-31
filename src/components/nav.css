@@ -6,9 +6,11 @@ nav ul li {
 
 nav p,
 nav li {
+    font-size: 18px;
     text-align: left;
     padding: 15px 15px;
 }
+
 #main-nav{
     background-color: #464646;
     position: fixed;
@@ -18,6 +20,9 @@ nav {
     max-width: calc(940px + 30px);
     margin: auto;
     justify-content: space-between;
+}
+nav ul{
+    padding-left: 0px;
 }
 
 nav p,

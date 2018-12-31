@@ -7,14 +7,13 @@ import SpeakerSet from '../SpeakerSet';
 
 const styles = {
     card: {
-        maxWidth: 1100,
         margin: '25px auto',
         padding: '50px 25px',
         textAlign: 'left'
     },
     content: {
         margin: 'auto',
-        width: 940
+        maxWidth: 940
     },
     cta: {
         color: '#008BFF',
@@ -35,7 +34,7 @@ const styles = {
 
 const EventCard = ({ classes }) => {
     return (
-        <Card className={classes.card}>
+        <Card className={classes.card} id="event-card">
             <CardContent className={classes.content}>
                 <p>Upcoming Events</p>
                 <h2>Product Management in B2B vs. B2C</h2>
