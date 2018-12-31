@@ -5,12 +5,12 @@ import './about.css';
 const styles = {
     wrapper:{
         background: '#F4F4F4',
-        height: 500
+        height: 'auto'
     },
     copy: {
         maxWidth: 940,
         margin: 'auto',
-        paddingTop: 150,
+        paddingTop: 100,
         textAlign: 'left',
         // clearfix
         overflow: 'auto'

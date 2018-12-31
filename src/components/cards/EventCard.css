@@ -1,3 +1,21 @@
-#event-card{
-    max-width: calc(100% - 90px);
+#events .Speaker-copy-45 {
+    font-size: 16px;
+}
+
+#events .Speaker-img-44 {
+    width: 90px;
+    margin-top: 20px;
+}
+
+#events .EventCard-copy-11 p:last-of-type{
+    margin-bottom: 30px;
+}
+#events .EventCard-copy-11 .date:last-of-type{
+    margin-bottom: 0px;
+}
+
+#events .EventCard-copy-11 .date,
+#events .EventCard-copy-11 .location{
+    font-size: 19px;
+    margin-bottom: 30px;
 }

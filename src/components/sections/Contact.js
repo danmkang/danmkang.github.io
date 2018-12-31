@@ -3,12 +3,12 @@ import { withStyles } from '@material-ui/core/styles';
 import footerLogo from '../../assets/footer-logo.png';
 import linkedin from '../../assets/linkedin-logo.png';
 import twitter from '../../assets/twitter-logo.png';
+import './contact.css';
 
 const styles = {
     wrapper: {
         background: '#464646',
-        paddingTop: 50,
-        height: 272,
+        height: 'auto',
         color: 'white'
     },
     innerWrapper: {

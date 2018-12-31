@@ -15,7 +15,7 @@ const styles = {
     },
     copy: {
         fontSize: 8,
-        paddingLeft: 20,
+        paddingLeft: 30,
         paddingTop: 5
     }
 };

@@ -23,7 +23,7 @@ const styles = {
         display: 'flex'
     },
     copy: {
-        width: '65%'
+        width: '60%'
     },
     speakerSet: {
         display: 'flex',
@@ -41,10 +41,10 @@ const EventCard = ({ classes }) => {
                 <div className={classes.copyWrapper}>
                     <div className={classes.copy}>
                         <p>When</p>
-                        <p>February 12, 2019</p>
-                        <p>6PM to 9PM</p>
+                        <p className="date">February 12, 2019
+                        <br />6PM to 9PM</p>
                         <p>Where</p>
-                        <p>Tulip Retail, 1 Yonge St</p>
+                        <p className="location">Tulip Retail, 1 Yonge St</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Register for event</a>
                     </div>

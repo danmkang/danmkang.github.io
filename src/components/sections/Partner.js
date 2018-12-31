@@ -1,5 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import './partner.css';
 import PartnerCard from '../cards/PartnerCard';
 import partnerData from '../../datasets/partnerData';
 

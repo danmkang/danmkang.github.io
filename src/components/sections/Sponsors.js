@@ -1,12 +1,12 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import sprintlio from '../../assets/sprintlio-logo.png';
+import './sponsors.css';
 
 const styles = {
     wrapper: {
         background: '#FFFFFF',
-        paddingTop: 50,
-        height: 272
+        height: 'auto',
     },
     innerWrapper: {
         maxWidth: 940,
