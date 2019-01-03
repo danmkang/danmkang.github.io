@@ -38,7 +38,7 @@ const PartnerCard = ({ classes, title, description, cta, img }) => {
                 </div>
                 <p>{title}</p>
                 <p className={classes.description} fontSize="small">{description}</p>
-                <a className={classes.cta} href="https://www.meetup.com/ProductGO/">{cta}</a>
+                <a className={classes.cta} href="mailto:productgo@protonmail.com?Subject=Partner Inquiry for Product Go">{cta}</a>
             </CardContent>
         </Card >
     )

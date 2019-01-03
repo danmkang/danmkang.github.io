@@ -1,5 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import './speaker.css';
 
 const styles = {
     wrapper: {
@@ -16,11 +17,11 @@ const styles = {
     copy: {
         fontSize: 8,
         paddingLeft: 30,
-        paddingTop: 5
+        paddingTop: 5,
     }
 };
 
-const Speaker = ({ classes, img, name, title, company }) => {
+const Speaker = ({ classes, img, name, title, company}) => {
     return (
         <div className={classes.wrapper}>
             <div className={classes.imgWrapper}>

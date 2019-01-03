@@ -1,17 +1,18 @@
 import speaker from '../assets/speaker.png';
+import speakerAvrum from '../assets/avrum.jpeg';
 
 const speakerData = [
     {
-        img: `${speaker}`,
-        name: 'Full Name',
-        title: 'Title',
-        company: 'Company'
+        img: `${speakerAvrum}`,
+        name: 'Avrum Laurie',
+        title: 'Head of Product',
+        company: 'Wealthsimple'
     },
     {
         img: `${speaker}`,
-        name: 'Full Name',
-        title: 'Title',
-        company: 'Company'
+        name: '',
+        title: 'TBD',
+        company: ''
     },
 ]
 

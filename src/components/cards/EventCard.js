@@ -37,15 +37,15 @@ const EventCard = ({ classes }) => {
         <Card className={classes.card} id="event-card">
             <CardContent className={classes.content}>
                 <p>Upcoming Events</p>
-                <h2>Product Management in B2B vs. B2C</h2>
+                <h2>Fighting the Giants: How to Build Products that Beat the Competition</h2>
                 <div className={classes.copyWrapper}>
                     <div className={classes.copy}>
                         <p>When</p>
-                        <p className="date">February 12, 2019
+                        <p className="date">February 7th, 2019
                         <br />6PM to 9PM</p>
                         <p>Where</p>
-                        <p className="location">Tulip Retail, 1 Yonge St</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p className="location">Pivotal Software<br />11th Floor, 1 Toronto Street, Toronto</p>
+                        <p>Many markets are dominated by a few major players - gigantic competitors with seemingly unlimited resources. Whether you're in FinTech, Insurance, or other industries - understanding how your competitors work is crucial to any product manager. How do we design and build products that can stand up against companies that are already leading the market? Join us as we invite some of Toronto's leading product leaders to share and discuss how they are gearing their teams up to challenge the giants.</p>
                         <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Register for event</a>
                     </div>
                     <div className={classes.speakerSet}>

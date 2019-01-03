@@ -24,7 +24,7 @@ const Sponsors = ({ classes }) => {
         <div id="sponsors" className={classes.wrapper}>
             <div className={classes.innerWrapper}>
                 <p>Sponsors</p>
-                <a href="https://www.sprintlio.com/">
+                <a href="https://sprintlio.com/?ref=productgo">
                     <img className={classes.sponsorLogo} src={sprintlio} alt="" />
                 </a>
             </div>
