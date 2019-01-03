@@ -45,8 +45,11 @@ const EventCard = ({ classes }) => {
                         <br />6PM to 9PM</p>
                         <p>Where</p>
                         <p className="location">Pivotal Software<br />11th Floor, 1 Toronto Street, Toronto</p>
-                        <p>Many markets are dominated by a few major players - gigantic competitors with seemingly unlimited resources. Whether you're in FinTech, Insurance, or other industries - understanding how your competitors work is crucial to any product manager. How do we design and build products that can stand up against companies that are already leading the market? Join us as we invite some of Toronto's leading product leaders to share and discuss how they are gearing their teams up to challenge the giants.</p>
-                        <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Register for event</a>
+                        <p>Many markets are dominated by a few major players - gigantic competitors with seemingly unlimited resources. Whether you’re in FinTech, Insurance, or other industries - understanding how your competitors work is crucial to any product manager.
+                        </p>
+                        <p>
+                        How do we design and build products that can stand up against companies that are already leading the market? Join us as we invite Breanna Hughes (Director of Product @ League) and Avrum Laurie (Head of Product @ Wealthsimple) to share and discuss how they are gearing their teams up to challenge the giants.</p>
+                        <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Register for    event</a>
                     </div>
                     <div className={classes.speakerSet}>
                         <SpeakerSet />

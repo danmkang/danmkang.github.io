@@ -28,6 +28,7 @@ const Nav = ({ classes }) => {
                 <li><a href="#events">Events</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#partner">Partner</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href=""><img src={twitter} alt="twitter social icon" /></a>
                 </li>
