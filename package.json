@@ -23,5 +23,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "https://danmkang.github.io/product-go",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
