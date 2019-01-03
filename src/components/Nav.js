@@ -30,9 +30,9 @@ const Nav = ({ classes }) => {
                 <li><a href="#partner">Partner</a></li>
                 <li><a href="#sponsors">Sponsors</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href=""><img src={twitter} alt="twitter social icon" /></a>
+                    <li><a href="https://twitter.com/productgo"><img src={twitter} alt="twitter social icon" /></a>
                 </li>
-                <li><a href=""><img src={linkedin} alt="linkedin social icon" /></a>
+                    <li><a href="https://www.linkedin.com/company/productgo"><img src={linkedin} alt="linkedin social icon" /></a>
                 </li>
             </ul>
         </nav>

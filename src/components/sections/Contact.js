@@ -41,8 +41,8 @@ const Contact = ({ classes }) => {
                 <div className={classes.footer}>
                     <div className={classes.copy}>
                         <p>Email us at <a className={classes.cta} href="mailto:productgo@protonmail.com?Subject=Inquiry for Product Go">productgo@protonmail.com</a> for any questions about upcoming meetups or sponsorships and we will be sure to reach out to you!</p>
-                        <a href=""><img className={classes.social} src={twitter}  alt="twitter social icon" /></a>
-                        <a href=""><img className={classes.social} src={linkedin} alt="linkedin social icon" /></a>
+                        <a href="https://twitter.com/productgo"><img className={classes.social} src={twitter}  alt="twitter social icon" /></a>
+                        <a href="https://www.linkedin.com/company/productgo"><img className={classes.social} src={linkedin} alt="linkedin social icon" /></a>
                     </div>
                     <img src={footerLogo} className={classes.footerLogo} alt="ProductGo Logo in green" />
                 </div>
