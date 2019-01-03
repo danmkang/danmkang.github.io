@@ -5,7 +5,7 @@ import host from '../assets/host-card.png';
 const partnerData = [
     {
         title: 'Become a speaker', 
-        description: 'Join our panel thought leaders in Product Management',
+        description: 'Join our panel of thought leaders in Product Management',
         cta: 'Join our panel', 
         img: `${speaker}`
     },
