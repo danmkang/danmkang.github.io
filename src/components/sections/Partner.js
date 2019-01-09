@@ -25,7 +25,7 @@ const styles = {
 const Partner = ({ classes }) => {
     return (
         <div id="partner" className={classes.wrapper}>
-            <div className={classes.innerWrapper}>
+            <div className={`${classes.innerWrapper} Partner-innerWrapper`}>
             {partnerData.map((card, i) => {
                 return (<PartnerCard
                     title={card.title}

@@ -31,7 +31,7 @@ const styles = {
 
 const PartnerCard = ({ classes, title, description, cta, img }) => {
     return (
-        <Card className={classes.card}>
+        <Card className={`${classes.card} PartnerCard-card`}>
             <CardContent>
                 <div className={classes.imgWrapper}>
                     <img className={classes.img} src={img} alt={title} />

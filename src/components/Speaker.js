@@ -23,11 +23,11 @@ const styles = {
 
 const Speaker = ({ classes, img, name, title, company}) => {
     return (
-        <div className={classes.wrapper}>
+        <div className={`${classes.wrapper} Speaker-wrapper`}>
             <div className={classes.imgWrapper}>
-                <img className={classes.img} src={img} alt={`Headshot of ${name}`} />
+                <img className={`${classes.img} Speaker-img`} src={img} alt={`Headshot of ${name}`} />
             </div>
-            <div className={classes.copy}>
+            <div className={`${classes.copy} Speaker-copy`}>
                 <p>{name}</p>
                 <p>{title}</p>
                 <p>{company}</p>

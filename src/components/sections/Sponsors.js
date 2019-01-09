@@ -22,10 +22,10 @@ const styles = {
 const Sponsors = ({ classes }) => {
     return (
         <div id="sponsors" className={classes.wrapper}>
-            <div className={classes.innerWrapper}>
+            <div className={`${classes.innerWrapper} Sponsors-innerWrapper`}>
                 <p>Sponsors</p>
                 <a href="https://sprintlio.com/?ref=productgo">
-                    <img className={classes.sponsorLogo} src={sprintlio} alt="" />
+                    <img className={`${classes.sponsorLogo} Sponsors-sponsorLogo`} src={sprintlio} alt="" />
                 </a>
             </div>
         </div>

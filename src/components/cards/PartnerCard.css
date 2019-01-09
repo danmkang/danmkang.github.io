@@ -1,8 +1,9 @@
-#partner .PartnerCard-card-51 {
+#partner .PartnerCard-card {
     position: relative;
     z-index: auto;
 }
-#partner .PartnerCard-card-51 a {
+
+#partner .PartnerCard-card a {
     position: absolute;
     bottom: 30px;
 }

@@ -38,8 +38,8 @@ const EventCard = ({ classes }) => {
             <CardContent className={classes.content}>
                 <p>Upcoming Events</p>
                 <h2>Fighting the Giants: How to Build Products that Beat the Competition</h2>
-                <div className={classes.copyWrapper}>
-                    <div className={classes.copy}>
+                <div className={`${classes.copyWrapper} EventCard-copyWrapper`}>
+                    <div className={`${classes.copy} EventCard-copy`}>
                         <p><b>When</b></p>
                         <p className="date">February 7th, 2019
                         <br />6PM to 9PM</p>
@@ -51,7 +51,7 @@ const EventCard = ({ classes }) => {
                         How do we design and build products that can stand up against companies that are already leading the market? Join us as we invite Breanna Hughes (Director of Product @ League) and Avrum Laurie (Head of Product @ Wealthsimple) to share and discuss how they are gearing their teams up to challenge the giants.</p>
                         <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Register for    event</a>
                     </div>
-                    <div className={classes.speakerSet}>
+                    <div className={`${classes.speakerSet} EventCard-speakerSet`}>
                         <SpeakerSet />
                     </div>
                 </div>
