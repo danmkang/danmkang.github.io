@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/avrum.1a62b0b5.jpeg"
   },
   {
-    "revision": "10c0dab8000c1a73b25c",
+    "revision": "98460ba3b2b48b639023",
     "url": "/static/css/main.816a4fa4.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/header-logo.700be3ca.png"
   },
   {
-    "revision": "10c0dab8000c1a73b25c",
-    "url": "/static/js/main.10c0dab8.chunk.js"
+    "revision": "98460ba3b2b48b639023",
+    "url": "/static/js/main.98460ba3.chunk.js"
   },
   {
     "revision": "246ac5d69819cdfa415f7dafe142e986",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/footer-logo.e342e1bb.png"
   },
   {
-    "revision": "d0217db3ada9ab00bd977c01ebe9449e",
+    "revision": "e3362d08b367bf1f91e6a7b6841361a1",
     "url": "/index.html"
   }
 ];
