@@ -48,8 +48,11 @@ const EventCard = ({ classes }) => {
                         <p>Many markets are dominated by a few major players - gigantic competitors with seemingly unlimited resources. Whether you’re in FinTech, Insurance, or other industries - understanding how your competitors work is crucial to any product manager.
                         </p>
                         <p>
-                        How do we design and build products that can stand up against companies that are already leading the market? Join us as we invite Breanna Hughes (Director of Product @ League) and Avrum Laurie (Head of Product @ Wealthsimple) to share and discuss how they are gearing their teams up to challenge the giants.</p>
-                        <a className={classes.cta} href="https://www.meetup.com/ProductGo/events/257722891/">Register for event</a>
+                        How do we design and build products that can stand up against companies that are already leading the market? </p>
+                        <p>
+                        Join us as we invite Breanna Hughes (Director of Product @ League) and Avrum Laurie (Head of Product @ Wealthsimple) to share and discuss how they are gearing their teams up to challenge the giants.</p>
+                        <a className={classes.cta} href="https://www.meetup.com/ProductGo/events/257722891/">More Info</a>
+                        <a className={classes.cta} href="https://productgofeb2019.eventbrite.ca">Buy Tickets</a>
                     </div>
                     <div className={`${classes.speakerSet} EventCard-speakerSet`}>
                         <SpeakerSet />
