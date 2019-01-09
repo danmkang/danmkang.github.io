@@ -40,11 +40,11 @@ const EventCard = ({ classes }) => {
                 <h2>Fighting the Giants: How to Build Products that Beat the Competition</h2>
                 <div className={classes.copyWrapper}>
                     <div className={classes.copy}>
-                        <p>When</p>
+                        <p><b>When</b></p>
                         <p className="date">February 7th, 2019
                         <br />6PM to 9PM</p>
-                        <p>Where</p>
-                        <p className="location">Pivotal Software<br />11th Floor, 1 Toronto Street, Toronto</p>
+                        <p><b>Where</b></p>
+                        <p className="location">Pivotal Software<br/>11th Floor, 1 Toronto Street, Toronto</p>
                         <p>Many markets are dominated by a few major players - gigantic competitors with seemingly unlimited resources. Whether you’re in FinTech, Insurance, or other industries - understanding how your competitors work is crucial to any product manager.
                         </p>
                         <p>
