@@ -51,8 +51,8 @@ const EventCard = ({ classes }) => {
                         How do we design and build products that can stand up against companies that are already leading the market? </p>
                         <p>
                         Join us as we invite Breanna Hughes (Director of Product @ League) and Avrum Laurie (Head of Product @ Wealthsimple) to share and discuss how they are gearing their teams up to challenge the giants.</p>
-                        <a className={classes.cta} href="https://www.meetup.com/ProductGo/events/257722891/">More Info</a>
-                        <a className={classes.cta} href="https://productgofeb2019.eventbrite.ca">Buy Tickets</a>
+                        <p><a className={classes.cta} href="https://www.meetup.com/ProductGo/events/257722891/">More Info</a></p>
+                        <p><a className={classes.cta} href="https://productgofeb2019.eventbrite.ca">Buy Tickets</a></p>
                     </div>
                     <div className={`${classes.speakerSet} EventCard-speakerSet`}>
                         <SpeakerSet />
