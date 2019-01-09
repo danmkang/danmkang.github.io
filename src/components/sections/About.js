@@ -26,8 +26,8 @@ const About = ({ classes }) => {
     return (
         <div id="about" className={classes.wrapper} >            
             <div className={`${classes.copy} About-copy`}>
-                <p>About Us</p>
-                <p>ProductGo is a meetup where Torontos digital product development professionals can learn from our best product leaders. Each meetup will have panel discussions with a wide variety of product leaders that shape the direction of Toronto's fastest-growing technology companies. </p>
+                <p><b>About Us</b></p>
+                <p>ProductGo is a meetup where Toronto's digital product development professionals can learn from our best product leaders. Each meetup will have panel discussions with a wide variety of product leaders that shape the direction of Toronto's fastest-growing technology companies. </p>
                 <a className={classes.cta} href="https://www.meetup.com/ProductGO/">Visit Meetup Page</a>
             </div>
         </div>
