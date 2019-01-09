@@ -1,4 +1,3 @@
-import speaker from '../assets/speaker.png';
 import speakerAvrum from '../assets/avrum.jpeg';
 import speakerBreanna from '../assets/breanna.jpeg';
 
