@@ -28,7 +28,7 @@ const Home = ({ classes }) => {
     return (
         <div id="home" className={classes.wrapper}>
             <Nav />
-            <div className={classes.copy}>
+            <div className={`${classes.copy} Home-copy`}>
                 <img className={`${classes.headerLogo} Home-headerLogo`} src={headerLogo} alt=""/>
                 <h1>ProductGo</h1>
                 <p>Toronto's premier meetups for Product Managers</p>

@@ -19,3 +19,7 @@
     font-size: 19px;
     margin-bottom: 30px;
 }
+
+#event-card .EventCard-copy p.moreInfo {
+    margin-top: 50px;
+}

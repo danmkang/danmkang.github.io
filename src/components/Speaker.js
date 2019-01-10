@@ -28,7 +28,7 @@ const Speaker = ({ classes, img, name, title, company}) => {
                 <img className={`${classes.img} Speaker-img`} src={img} alt={`Headshot of ${name}`} />
             </div>
             <div className={`${classes.copy} Speaker-copy`}>
-                <p>{name}</p>
+                <p className='name'>{name}</p>
                 <p>{title}</p>
                 <p>{company}</p>
             </div>
