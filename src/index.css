@@ -20,12 +20,16 @@ input[type='checkbox'] {
 #home #main-nav {
   z-index: 10;
 }
+
+#home .Home-copy h1 {
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
 /* Media Queries */
 @media (min-width: 450px) {
   #home .Home-copy h1 {
     font-size: 70px;
-    font-weight: 300;
-    margin-bottom: 0px;
   }
 
   #home .Home-copy p {
@@ -80,13 +84,15 @@ input[type='checkbox'] {
   #events .Speaker-wrapper {
     flex-direction: column;
     text-align: center;
+    padding-top: 0px;
   }
 
   #events .Speaker-copy {
     padding-left: 0px;
   }
 
-  #event-card .EventCard-copy p {
+  #event-card .EventCard-copy p.moreInfo,
+  #event-card .EventCard-copy p.buyTix {
     text-align: center;
   }
 
@@ -139,8 +145,9 @@ input[type='checkbox'] {
   }
   #events .EventCard-speakerSet {
     padding-left: 0;
-    padding-top: 30px;
+    padding-top: 0px;
   }
+  
   #partner {
     height: auto;
   }
