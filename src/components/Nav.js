@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import linkedin from '../assets/linkedin-logo.png';
-import twitter from '../assets/twitter-logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import './nav.css';
 
 const styles = {
@@ -16,7 +16,7 @@ const Nav = ({ classes }) => {
         <div id="main-nav">
         <nav className={classes.headerNav}>
             <p>ProductGo</p>
-            <label for="toggle-menu">
+            <label htmlFor="toggle-menu">
                 <div className="hamburger-menu">
                     <div className="bar"></div>
                     <div className="bar"></div>
@@ -30,10 +30,8 @@ const Nav = ({ classes }) => {
                 <li><a href="#partner">Partner</a></li>
                 <li><a href="#sponsors">Sponsors</a></li>
                 <li><a href="#contact">Contact</a></li>
-                    <li><a href="https://twitter.com/productgo"><img src={twitter} alt="twitter social icon" /></a>
-                </li>
-                    <li><a href="https://www.linkedin.com/company/productgo"><img src={linkedin} alt="linkedin social icon" /></a>
-                </li>
+                <li><a href="https://twitter.com/productgo"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                <li><a href="https://www.linkedin.com/company/productgo"><FontAwesomeIcon icon={faLinkedin} /></a></li>
             </ul>
         </nav>
         </div>
