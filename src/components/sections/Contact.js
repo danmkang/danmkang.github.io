@@ -37,7 +37,7 @@ const Contact = ({ classes }) => {
     return (
         <div id="contact" className={classes.wrapper}>
             <div className={`${classes.innerWrapper} Contact-innerWrapper`}>
-                <p>Contact us</p>
+                <h3>Contact us</h3>
                 <div className={`${classes.footer} Contact-footer`}>
                     <div className={classes.copy}>
                         <p>Email us at <a className={classes.cta} href="mailto:productgo@protonmail.com?Subject=Inquiry for Product Go">productgo@protonmail.com</a> for any questions about upcoming meetups or sponsorships and we will be sure to reach out to you!</p>

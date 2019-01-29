@@ -36,7 +36,7 @@ const EventCard = ({ classes }) => {
     return (
         <Card className={classes.card} id="event-card">
             <CardContent className={classes.content}>
-                <p>Upcoming Events</p>
+                <h3>Upcoming Events</h3>
                 <h2>Fighting the Giants: How to Build Products that Beat the Competition</h2>
                 <div className={`${classes.copyWrapper} EventCard-copyWrapper`}>
                     <div className={`${classes.copy} EventCard-copy`}>
