@@ -1,6 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import sprintlio from '../../assets/sprintlio-logo.png';
+import productfaculty from '../../assets/product-faculty-logo.jpg';
 import './sponsors.css';
 
 const styles = {
@@ -15,7 +16,9 @@ const styles = {
     },
     sponsorLogo: {
         display: 'flex',
-        margin: 'auto'
+        margin: 'auto',
+        maxWidth: 250,
+        paddingTop: 25
     },
 };
 
@@ -24,9 +27,14 @@ const Sponsors = ({ classes }) => {
         <div id="sponsors" className={classes.wrapper}>
             <div className={`${classes.innerWrapper} Sponsors-innerWrapper`}>
                 <h3>Sponsors</h3>
-                <a href="https://sprintlio.com/?ref=productgo">
-                    <img className={`${classes.sponsorLogo} Sponsors-sponsorLogo`} src={sprintlio} alt="" />
-                </a>
+                <div className='sponsor-logos'>
+                    <a href="https://sprintlio.com/?ref=productgo">
+                        <img className={`${classes.sponsorLogo} Sponsors-sponsorLogo`} src={sprintlio} alt="" />
+                    </a>
+                    <a href="http://www.productfaculty.com/">
+                        <img className={`${classes.sponsorLogo} Sponsors-sponsorLogo`} src={productfaculty} alt="" />
+                    </a>
+                </div>
             </div>
         </div>
     )

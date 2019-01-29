@@ -1,3 +1,9 @@
-#sponsors .Sponsors-innerWrapper p{
+#sponsors .Sponsors-innerWrapper h3{
     margin-top: 0px;
+    text-align: center;
 }
+#sponsors .Sponsors-innerWrapper .sponsor-logos {
+    display: flex;
+    justify-content: space-around;
+}
+
