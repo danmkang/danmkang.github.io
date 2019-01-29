@@ -17,14 +17,14 @@ const Nav = ({ classes }) => {
         <nav className={classes.headerNav}>
             <p>ProductGo</p>
             <label for="toggle-menu">
-                <div class="hamburger-menu">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
+                <div className="hamburger-menu">
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                    <div className="bar"></div>
                 </div>
             </label>
-            <input type="checkbox" class="toggle" id="toggle-menu" name="toggle-menu" />
-            <ul class="menu">
+            <input type="checkbox" className="toggle" id="toggle-menu" name="toggle-menu" />
+            <ul className="menu">
                 <li><a href="#events">Events</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#partner">Partner</a></li>

@@ -4,6 +4,10 @@ nav ul li {
     display: flex;
 }
 
+nav ul li:hover a {
+    color: #AFD4BF;
+}
+
 nav p,
 nav li {
     font-size: 18px;
