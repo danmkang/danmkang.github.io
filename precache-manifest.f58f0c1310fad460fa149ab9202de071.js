@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "1a62b0b5d43b6f37cf1a9e227e7533e0",
-    "url": "/static/media/avrum.1a62b0b5.jpeg"
+    "revision": "a1c61362aa3caac679f7",
+    "url": "/static/css/main.0e5d03e6.chunk.css"
   },
   {
-    "revision": "fa7489de4cd488fc61bf",
-    "url": "/static/css/main.50ec73b3.chunk.css"
+    "revision": "a1c61362aa3caac679f7",
+    "url": "/static/js/main.a1c61362.chunk.js"
   },
   {
-    "revision": "44628870f93ae4361b5e",
-    "url": "/static/js/1.44628870.chunk.js"
+    "revision": "2e809dfab2436f447c20",
+    "url": "/static/js/1.2e809dfa.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/header-logo.700be3ca.png"
   },
   {
-    "revision": "fa7489de4cd488fc61bf",
-    "url": "/static/js/main.fa7489de.chunk.js"
+    "revision": "1a62b0b5d43b6f37cf1a9e227e7533e0",
+    "url": "/static/media/avrum.1a62b0b5.jpeg"
   },
   {
     "revision": "246ac5d69819cdfa415f7dafe142e986",
@@ -44,11 +44,15 @@ self.__precacheManifest = [
     "url": "/static/media/host-card.aa2bd7a7.png"
   },
   {
+    "revision": "b9a21ff26b7ed3cb9d681a3d75e453f4",
+    "url": "/static/media/product-faculty-logo.b9a21ff2.jpg"
+  },
+  {
     "revision": "e342e1bbbfd3a3b80ce2642f7d75e226",
     "url": "/static/media/footer-logo.e342e1bb.png"
   },
   {
-    "revision": "967f6147fe3f74af1d61b97bc68b1a2e",
+    "revision": "d83b63cab9426ff917271e870d16080c",
     "url": "/index.html"
   }
 ];
